@@ -1,0 +1,238 @@
+a{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.custom-nav{color:white;
+}
+.nav-items ul li {
+    padding : 0px 10px;
+}
+.nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color:white; /* Default text color */
+}
+.nav ul li a::before,
+.nav ul li a::after {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  width: 0;
+  height: 2px; 
+  bottom: 0;
+  background-color: #e82574; /* Color of the underline */
+  transition: width 0.3s ease-out; /* Smooth animation */
+}
+.nav ul li a:hover::before {
+    width: 100%;
+  }
+.line{
+    width: 5rem;
+    border-bottom: 1px solid #e82574;
+}
+a{
+    text-decoration: none;
+}
+.navbar-Section{
+    background-image: url(images/ayodhya.webp);
+    height: 100vh;
+}
+.logo h6{
+    color: white;
+    cursor: pointer;
+}
+.book{
+    background-color: #e82574;
+    color: white;
+}
+.book:hover{
+    background-color: #bc1c5c;
+    color: white;
+}
+.home{
+    width: 50rem;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:170px auto;
+}
+.home h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.home h1 span{
+    color: #e82574;
+}
+.book-btn{
+    width: 60rem;
+height: 8rem;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+position: relative;
+bottom: -50px;
+left: 1.5rem;
+border-radius: 10px;
+border: 1px solid;
+}
+.img{
+    width: 50%;
+    margin: 20px;
+}
+.img img{
+    border-radius: 10px;
+}
+.our-details a p{
+    margin: 0;
+    padding: 0;
+    color: blue;
+    font-weight: bold;
+}
+
+.about-section{
+    margin-top:10rem;
+}
+.card-img-top{
+    border-radius: 20px 20px 0 0;
+}
+.card{
+    border-radius: 20px;
+}
+.cards h2{
+    width: 35rem;
+    margin-bottom: 3rem;
+}
+.card-text{
+    color: gray;
+}
+.service-img{
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    left: -22px;
+}
+.service-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+}
+.services img{
+    width: 1.5rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+.services ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.services ul li span{
+    background-color: antiquewhite;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.services ul li span i{
+    position: relative;
+    font-size: 2rem;
+    left: 8px;
+    top: 10px;
+}
+.details{
+    position: relative;
+height: 82vh;
+padding: 2.5rem;
+top: -32rem;
+background-color: wite;
+background-color: white;
+width: 47.5vw;
+left: 32rem;
+}
+.details .sub-heading{
+    color: black;
+}
+.details h3{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.gallary{
+ margin: 0;
+ padding: 0;
+}
+.box{
+    height: 10vh;
+}
+.contact{
+    /* border: 1px solid black; */
+    /* height: 80vh; */
+    box-shadow: 0 0 3px rgba(0, 0,0, 0.5);
+}
+form{
+    padding: 2rem;
+}
+form h3{
+    color: #e82574;
+}
+
+.contact-info{
+    padding: 10px;
+    background-color: #e82574;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-info i{
+    font-size: 1.5rem;
+}
+.contact-info ul li{
+    display: inline;
+    list-style: none;
+    padding: 0.5rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 5rem;
+    padding: 2rem;
+    /* height: 90vh; */
+}
+footer h2 p, footer h2{
+    width: 150px;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.footer-items{
+    /* padding: 1rem; */
+    color: gray;
+    line-height: 2;
+    margin-top: 2rem;
+}
+footer ul{
+    margin-top: 1rem;
+}
+footer ul li{
+    color: gray;
+    /* line-height: 3; */
+    padding-top: 1rem;
+    list-style: none;
+    position: relative;
+    left: -30px;
+}
+.copy{
+    text-align: center;
+    background-color: black;
+    color: gray;
+    padding-bottom: 3rem;
+}
